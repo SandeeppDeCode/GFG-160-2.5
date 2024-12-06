@@ -21,6 +21,6 @@ int secondLargest(vector<int> arr){
     return secondLargest == INT_MIN ? -1 : secondLargest;
 }   
 int main(){
-    vector<int>nums = {1,1,2,4,5,-1};
+    vector<int>nums = {1,1,2,4,5,1};
     cout<<secondLargest(nums)<<endl;
 }
