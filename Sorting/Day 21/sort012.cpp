@@ -2,7 +2,8 @@
 Problem : Given an array arr[] containing only 0s, 1s, and 2s. Sort the array in ascending order.
 1. Do a sorting algo;
 2. count a number of 0 1 and 2's
-3. Dutch National Flag Algo - Great
+3. Dutch National Flag Algo - 
+if mid == 0 swap with low and mid == 1 just move mid and if mid == 2 swap with high 
 
 Time : O(N);
 Space : O(1);
